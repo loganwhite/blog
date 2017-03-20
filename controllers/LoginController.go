@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"github.com/astaxie/beego"
 )
 
@@ -15,7 +14,7 @@ func (this *AdminController) AdminLogin() {
 	this.Render()
 }
 
-func (this *AdminController) SubmitLogin() {
-	username := this.GetString("u_name")
-	password := this.GetString("u_passwd")
-}
+// func (this *AdminController) SubmitLogin() {
+// 	username := this.GetString("u_name")
+// 	password := this.GetString("u_passwd")
+// }
